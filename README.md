@@ -45,6 +45,10 @@ _ mv (fileOldName) (fileNewName)  **|rename file**
 
 *// git status -s  **|shows status w less text & simbols**
 
+**M** **|modief file**  (if green= stagged) (if red = not stagged)
+
+**??** **|not stagged file** -->  **A** **|added file to STAGE**  
+
 -----------------------------
 # #... commit
 
