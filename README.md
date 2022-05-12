@@ -6,6 +6,8 @@
 
 _  rm (fileX)  **|delete file**
 
+// git rm (fileX)  **|delete and commit together**
+
 _  ls                **|to show files**
 
 _  cd                **|to search a fil from directory**
