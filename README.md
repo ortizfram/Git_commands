@@ -4,6 +4,7 @@ how to move inside, create directories, commit, etc
 # #…or create a new repository on the command line
 
 
+code .            # **to open file in editor**
 
 git init          # **crate .git inside directory**
 
