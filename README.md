@@ -43,6 +43,8 @@ _ mv (fileOldName) (fileNewName)  **|rename file**
                   
 *_  git status        **|status of repository**
 
+_  git diff  **|see all changes up to now EXIT Q**
+
 *// git status -s  **|shows status w less text & simbols**
 
 **M** **|modief file**  (if green= stagged) (if red = not stagged)
