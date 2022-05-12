@@ -73,3 +73,7 @@ _  git branch **|inwhat branch am i ?**
 
 _  git checkout -b (ticketNUmber || features/nombre_rama) **|create new branch**
 
+-------------------------
+# #..cat (see what is inside)
+
+_  git (fileName.txt)
