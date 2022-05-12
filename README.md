@@ -24,12 +24,13 @@ _ mv (fileOldName) (fileNewName)  **|rename file**
 // git mv (fileOldName) (fileNewName) **|rename & commit**
 
 
-# #… add, commit 
+# #… INIT
 
 
 *_  git init          **|crate .git inside directory**
 
 ---------------------------
+# #... add
 
 *_  git add      **|just first loads and,CONFIRM MODIFICATIONS of files**     
 
@@ -38,12 +39,14 @@ _ mv (fileOldName) (fileNewName)  **|rename file**
  /if want to add more and not .| archivo1.txt (space) archivo2.txt
  
  -------------------------------
+ # #... status
                   
 *_  git status        **|status of repository**
 
 *// git status -s  **|shows status w less text & simbols**
 
 -----------------------------
+# #... commit
 
 *_  git commit -m "first commit"  **|after add**
 
