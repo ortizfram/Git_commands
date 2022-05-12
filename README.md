@@ -1,6 +1,6 @@
 # Git_commands
 
-## how to move inside, create directories, commit, etc
+# #...How to Move inside, Create directories, commit, etc
 
 *_  code .            **|to open file in editor**
 
@@ -16,6 +16,9 @@ _  cd                **|to search a fil from directory**
 
 _  cd ..             **|to go back**
 
+-----------------------------------
+# #... rename
+
 _ mv (fileOldName) (fileNewName)  **|rename file**
 
 // git mv (fileOldName) (fileNewName) **|rename & commit**
@@ -26,17 +29,25 @@ _ mv (fileOldName) (fileNewName)  **|rename file**
 
 *_  git init          **|crate .git inside directory**
 
+---------------------------
+
 *_  git add      **|just first loads and,CONFIRM MODIFICATIONS of files**     
 
 /how?  |archivo1.txt |.txt(all from class)| . (ALL THINGS)
 
  /if want to add more and not .| archivo1.txt (space) archivo2.txt
+ 
+ -------------------------------
                   
 *_  git status        **|status of repository**
 
-// git status -s  **|shows status w less text & simbols**
+*// git status -s  **|shows status w less text & simbols**
+
+-----------------------------
 
 *_  git commit -m "first commit"  **|after add**
+
+-----------------------------
 
 _  ls -a             **|shows directories from git**
 
