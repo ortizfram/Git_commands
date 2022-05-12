@@ -4,9 +4,13 @@ how to move inside, create directories, commit, etc
 # …or create a new repository on the command line
 
 echo "# Git_commands" >> README.md
+
 git init        #crate .git inside directory 
+
 ls -a           ##shows directories from git
+
 cd .git         ##to enter git directory
+
 git add README.md
 git commit -m "first commit"
 git branch -M main
