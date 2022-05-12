@@ -13,7 +13,11 @@ cd .git           # **to enter git directory**
 
 git add README.md # **to stage file, (just changes)**
 
-git commit -m "first commit"
+git commit -m "first commit"  # **after add**
+
+git push         # **to upload**
+
+
 
 git branch -M main
 
