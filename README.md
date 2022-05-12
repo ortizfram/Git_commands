@@ -1,12 +1,27 @@
 # #Git_commands
 how to move inside, create directories, commit, etc
 
+code .            # **to open file in editor**
+
+ls                # **to show files**
+
+cd                # **to search a fil from directory**
+
+cd ..             # **to go back**
+
+
 # #…or create a new repository on the command line
 
 
-code .            # **to open file in editor**
-
 git init          # **crate .git inside directory**
+
+git add           # archivo1.txt
+
+                  # .txt (todos los txt)
+                  
+                  
+
+git status        # **status of repository**
 
 ls -a             # **shows directories from git**
 
