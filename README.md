@@ -1,7 +1,8 @@
-# #Git_commands
-how to move inside, create directories, commit, etc
+# Git_commands
 
-_  code .            **|to open file in editor**
+## how to move inside, create directories, commit, etc
+
+*_  code .            **|to open file in editor**
 
 _  ls                **|to show files**
 
@@ -10,18 +11,20 @@ _  cd                **|to search a fil from directory**
 _  cd ..             **|to go back**
 
 
-# #…or create a new repository on the command line
+# #… add, commit 
 
 
-_  git init          **|crate .git inside directory**
+*_  git init          **|crate .git inside directory**
 
-_  git add      **|just first loads and MODIFICATIONS of files**     
+*_  git add      **|just first loads and MODIFICATIONS of files**     
 
 how?  |archivo1.txt |.txt(all from class)| . (ALL THINGS)
 
  if want to add more and not .| archivo1.txt (space) archivo2.txt
                   
-_  git status        **|status of repository**
+*_  git status        **|status of repository**
+
+
 
 _  ls -a             **|shows directories from git**
 
