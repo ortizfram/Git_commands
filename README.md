@@ -67,30 +67,9 @@ _  git diff --staged (just greens)  **|see all changes up to now EXIT Q**
 _  git log --oneline  **|numero HASH de cada commit**
 
 ------------------------
+# #..Branches
 
-_  ls -a             **|shows directories from git**
+_  git branch **|inwhat branch am i ?**
 
-_  cd .git           **|to enter git directory**
+_  git checkout -b (ticketNUmber || features/nombre_rama) **|create new branch**
 
-_  git add README.md **|to stage file, (just changes)**
-
-
-
-_  git push         **|to upload**
-
-
-
-git branch -M main
-
-git remote add origin https://github.com/ortizfram/Git_commands.git
-
-git push -u origin main
-
-
-# …or push an existing repository from the command line
-
-git remote add origin https://github.com/ortizfram/Git_commands.git
-
-git branch -M main
-
-git push -u origin main
