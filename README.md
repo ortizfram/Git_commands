@@ -4,6 +4,8 @@
 
 *_  code .            **|to open file in editor**
 
+_  rm (fileX)  **|delete file**
+
 _  ls                **|to show files**
 
 _  cd                **|to search a fil from directory**
@@ -16,7 +18,7 @@ _  cd ..             **|to go back**
 
 *_  git init          **|crate .git inside directory**
 
-*_  git add      **|just first loads and MODIFICATIONS of files**     
+*_  git add      **|just first loads and,CONFIRM MODIFICATIONS of files**     
 
 /how?  |archivo1.txt |.txt(all from class)| . (ALL THINGS)
 
@@ -24,7 +26,7 @@ _  cd ..             **|to go back**
                   
 *_  git status        **|status of repository**
 
-
+*_  git commit -m "first commit"  **|after add**
 
 _  ls -a             **|shows directories from git**
 
@@ -32,7 +34,7 @@ _  cd .git           **|to enter git directory**
 
 _  git add README.md **|to stage file, (just changes)**
 
-_  git commit -m "first commit"  **|after add**
+
 
 _  git push         **|to upload**
 
