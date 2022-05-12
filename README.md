@@ -34,6 +34,8 @@ _ mv (fileOldName) (fileNewName)  **|rename file**
                   
 *_  git status        **|status of repository**
 
+// git status -s  **|shows status w less text & simbols**
+
 *_  git commit -m "first commit"  **|after add**
 
 _  ls -a             **|shows directories from git**
