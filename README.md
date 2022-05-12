@@ -16,6 +16,8 @@ _  cd                **|to search a fil from directory**
 
 _  cd ..             **|to go back**
 
+_ mv (fileOldName) (fileNewName)  **|rename file**
+
 
 # #… add, commit 
 
