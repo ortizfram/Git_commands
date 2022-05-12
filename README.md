@@ -54,7 +54,7 @@ _ mv (fileOldName) (fileNewName)  **|rename file**
 
 _  git diff  **|see all changes up to now EXIT Q**
 
-_  git diff --stage (just greens)  **|see all changes up to now EXIT Q**
+_  git diff --staged (just greens)  **|see all changes up to now EXIT Q**
 
 ----------------------------
 # #... commit
@@ -62,6 +62,11 @@ _  git diff --stage (just greens)  **|see all changes up to now EXIT Q**
 *_  git commit -m "first commit"  **|after add**
 
 -----------------------------
+# #.. log (all repository story)
+
+_  git log --oneline  **|numero HASH de cada commit**
+
+------------------------
 
 _  ls -a             **|shows directories from git**
 
