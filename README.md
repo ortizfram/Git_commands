@@ -18,9 +18,9 @@ _  cd ..             **|to go back**
 
 *_  git add      **|just first loads and MODIFICATIONS of files**     
 
-how?  |archivo1.txt |.txt(all from class)| . (ALL THINGS)
+/how?  |archivo1.txt |.txt(all from class)| . (ALL THINGS)
 
- if want to add more and not .| archivo1.txt (space) archivo2.txt
+ /if want to add more and not .| archivo1.txt (space) archivo2.txt
                   
 *_  git status        **|status of repository**
 
