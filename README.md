@@ -73,6 +73,10 @@ _  git branch **|inwhat branch am i ?**
 
 _  git checkout -b (ticketNUmber || features/nombre_rama) **|create new branch**
 
+- git checkout (branchName)  **|change branch**
+
+- git merge (branchName_that_wanna_bring_to_main/master) **|moving code thats valid to main branch/..**
+
 -------------------------
 # #..cat (see what is inside)
 
