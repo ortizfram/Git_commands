@@ -15,7 +15,9 @@ _  cd ..             **|to go back**
 
 _  git init          **|crate .git inside directory**
 
-_  git add           **|archivo1.txt |.txt(all from class)| . (ALL THINGS)**
+_  git add      **|just fist loads and MODIFICATIONS of files**     
+
+how?  |archivo1.txt |.txt(all from class)| . (ALL THINGS)
 
  if want to add more and not .| archivo1.txt (space) archivo2.txt
                   
