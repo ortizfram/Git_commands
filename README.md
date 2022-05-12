@@ -6,6 +6,8 @@
 
 _  rm (fileX)  **|delete file**
 
+_ git restore (fileX)  **|restoring files deleted**
+
 // git rm (fileX)  **|delete and commit together**
 
 _  ls                **|to show files**
