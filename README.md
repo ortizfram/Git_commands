@@ -81,3 +81,15 @@ _  git checkout -b (ticketNUmber || features/nombre_rama) **|create new branch**
 # #..cat (see what is inside)
 
 _  git (fileName.txt)
+
+----------------------------
+# #..upload to cloud GITHUB
+
+_  create a repository manually
+
+_  git remote add origin (**link followed by.git**) https://github.com/ortizfram/miweb.git
+
+_  git push -u origin master (or main) **|upload changes from working branch**
+
+
+
