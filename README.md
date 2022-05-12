@@ -43,8 +43,6 @@ _ mv (fileOldName) (fileNewName)  **|rename file**
                   
 *_  git status        **|status of repository**
 
-_  git diff  **|see all changes up to now EXIT Q**
-
 *// git status -s  **|shows status w less text & simbols**
 
 **M** **|modief file**  (if green= stagged) (if red = not stagged)
@@ -52,6 +50,13 @@ _  git diff  **|see all changes up to now EXIT Q**
 **??** **|not stagged file** -->  **A** **|added file to STAGE**  
 
 -----------------------------
+# #.. diff
+
+_  git diff  **|see all changes up to now EXIT Q**
+
+_  git diff --stage (just greens)  **|see all changes up to now EXIT Q**
+
+----------------------------
 # #... commit
 
 *_  git commit -m "first commit"  **|after add**
