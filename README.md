@@ -15,7 +15,7 @@ cd ..             **|to go back**
 
 git init          **|crate .git inside directory**
 
-git add           **|archivo1.txt, .txt(all from class), . (ALL THINGS)*
+git add           **|archivo1.txt |.txt(all from class)| . (ALL THINGS)**
                   
                   
 
