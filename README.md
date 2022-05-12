@@ -17,10 +17,8 @@ _  git init          **|crate .git inside directory**
 
 _  git add           **|archivo1.txt |.txt(all from class)| . (ALL THINGS)**
 
-_  if want to add more and not .| archivo1.txt (space) archivo2.txt
+ if want to add more and not .| archivo1.txt (space) archivo2.txt
                   
-                  
-
 _  git status        **|status of repository**
 
 _  ls -a             **|shows directories from git**
