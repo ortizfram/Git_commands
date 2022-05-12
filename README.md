@@ -18,6 +18,8 @@ _  cd ..             **|to go back**
 
 _ mv (fileOldName) (fileNewName)  **|rename file**
 
+*/ git mv (fileOldName) (fileNewName) **|force rename file**
+
 
 # #… add, commit 
 
