@@ -1,4 +1,4 @@
-# Git_commands
+# Git_commands  :arrow_up: 🔧 📈
 
 # #...How to Move inside, Create directories, commit, etc
 
