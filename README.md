@@ -87,9 +87,16 @@ _  git (fileName.txt)
 
 _  create a repository manually
 
+-  git branch -M main
+
 _  git remote add origin (**link followed by.git**) https://github.com/ortizfram/miweb.git
 
 -  git remote set-url origin (**link followed by.git**)
+
+![image](https://user-images.githubusercontent.com/51888893/168284554-dda1efad-4d32-449b-8863-e9fe5ed8227b.png)
+
+
+
 
 _  git push -u origin master (or main) **|upload changes from working branch**
 
