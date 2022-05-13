@@ -89,6 +89,8 @@ _  create a repository manually
 
 _  git remote add origin (**link followed by.git**) https://github.com/ortizfram/miweb.git
 
+-  git remote set-url origin (**link followed by.git**)
+
 _  git push -u origin master (or main) **|upload changes from working branch**
 
 
