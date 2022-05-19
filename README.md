@@ -3,28 +3,62 @@
 
 # #...How to Move inside, Create directories, commit, etc
 
-*_  code .            **|to open file in editor**
+# #OPEN
 
-_  rm (fileX)  **|delete file**
+**to OPEN file in editor**
 
-_ git restore (fileX)  **|restoring files deleted**
+```
+code .
+```
+----------------------------------------------------
+# #...DELETE
 
-// git rm (fileX)  **|delete and commit together**
+ **delete file**
+ 
+ ```
+  rm (fileX) 
+```
 
-_  ls                **|to show files**
 
-_  cd                **|to search a fil from directory**
+:star: **DELETE and commit together**
+```
+git rm (fileX)  
+```
+**RESTORE files deleted**
 
-_  cd ..             **|to go back**
+```
+git restore (fileX)  
+```
+----------------------------------------------------
+# #...MOVE inside directory
 
+**to show files**
+
+1. Windows
+2. Mac / IOS
+```
+dir
+ls                
+```
+  **go to directory**
+```
+cd
+```
+ **to go back**
+```
+ cd ..            
+```
 -----------------------------------
 # #... rename
-
-_ mv (fileOldName) (fileNewName)  **|rename file**
-
-// git mv (fileOldName) (fileNewName) **|rename & commit**
-
-
+**rename file**
+```
+ mv (fileOldName) (fileNewName)  
+```
+:star: **rename & commit**
+```
+git mv (fileOldName) (fileNewName) 
+```
+----------------------------------
 # #… INIT
 
 
