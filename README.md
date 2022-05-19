@@ -60,80 +60,109 @@ git mv (fileOldName) (fileNewName)
 ```
 ----------------------------------
 # #… INIT
-
-
-*_  git init          **|crate .git inside directory**
-
+  **crate .git inside directory**
+```
+git init        
+```
 ---------------------------
-# #... add
+# #... ADD
+**first loads and,CONFIRM MODIFICATIONS of files**   
+```
+git add        
+```
+**How?** ⬇ 
 
-*_  git add      **|just first loads and,CONFIRM MODIFICATIONS of files**     
+|archivo1.txt 
 
-/how?  |archivo1.txt |.txt(all from class)| . (ALL THINGS)
+|.txt(all from class)
 
- /if want to add more and not .| archivo1.txt (space) archivo2.txt
- 
+:star: ( . ALL THINGS)
+```
+git add .
+```
+
+ /if want to add more and not (. ALL)
+ ```
+ archivo1.txt (space) archivo2.txt
+ ```
  -------------------------------
  # #... status
-                  
-*_  git status        **|status of repository**
+ **status of repository**
+```                  
+git status        
+```
+ **shows status with less text & simbols**
+```
+git status -s 
+```
+**M** **=modief file** ---> (if 🟢 = **stagged**) ---> (if 🔴 = not stagged)
 
-*// git status -s  **|shows status w less text & simbols**
-
-**M** **|modief file**  (if green= stagged) (if red = not stagged)
-
-**??** **|not stagged file** -->  **A** **|added file to STAGE**  
+**??🔴** **=nt stagged** -->  **A🟢** **=added file to STAGE**  
 
 -----------------------------
 # #.. diff
-
-_  git diff  **|see all changes up to now EXIT Q**
-
-_  git diff --staged (just greens)  **|see all changes up to now EXIT Q**
-
+**|see all changes up to now EXIT Q**
+```
+git diff  
+```
+(just 🟢)  **|see all changes up to now EXIT Q**
+```
+git diff --staged 
+```
 ----------------------------
-# #... commit
-
-*_  git commit -m "first commit"  **|after add**
-
+# #... COMMIT
+ :star: **|after add**
+```
+git commit -m "first commit" 
+```
 -----------------------------
 # #.. log (all repository story)
-
-_  git log --oneline  **|numero HASH de cada commit**
-
+**|HASH number for every commit**
+```
+git log --oneline  
+```
 ------------------------
-# #..Branches
-
-_  git branch **|inwhat branch am i ?**
-
-_  git checkout -b (ticketNUmber || features/nombre_rama) **|create new branch**
-
-- git checkout (branchName)  **|change branch**
-
-- git merge (branchName_that_wanna_bring_to_main/master) **|moving code thats valid to main branch/..**
-
+# #..Branches, moving beweenB & Merge
+**|inwhat branch am i ?**
+```
+git branch 
+```
+**|create new branch**
+```
+git checkout -b (ticketNUmber(not obligatory)  BranchName) 
+```
+**|change branch**
+```
+- git checkout (branchName)  
+```
+ **|moving code thats valid to main branch**
+```
+git merge (branchName_that_wanna_bring_to_main/master)
+```
 -------------------------
 # #..cat (see what is inside)
-
-_  git (fileName.txt)
-
+```
+git (fileName.txt)
+```
 ----------------------------
-# #..upload to cloud GITHUB
+# #..upload to :cloud: GITHUB
 
-_  create a repository manually
+1. create a repository manually
 
--  git branch -M main
-
-_  git remote add origin (**link followed by.git**) https://github.com/ortizfram/miweb.git
-
--  git remote set-url origin (**link followed by.git**)
-
+2. if main branch  dont exist, create
+``
+git branch -M main
+``
+3. link created REpo
+```
+git remote add origin (**link followed by.git**) https://github.com/ortizfram/miweb.git
+git remote set-url origin (**link followed by.git**)
+``` 
 ![image](https://user-images.githubusercontent.com/51888893/168284554-dda1efad-4d32-449b-8863-e9fe5ed8227b.png)
 
-
-
-
-_  git push -u origin master (or main) **|upload changes from working branch**
-
+**PUSH(upload) from working brank**
+```
+ git push -u origin master (or main) **|upload changes from working branch**
+```
 
 
