@@ -149,20 +149,18 @@ git (fileName.txt)
 
 1. create a repository manually
 
-2. if main branch  dont exist, create
-``
-git branch -M main
-``
-3. link created REpo
-```
-git remote add origin (**link followed by.git**) https://github.com/ortizfram/miweb.git
-git remote set-url origin (**link followed by.git**)
-``` 
-![image](https://user-images.githubusercontent.com/51888893/168284554-dda1efad-4d32-449b-8863-e9fe5ed8227b.png)
+2. `git init` (when folder located in terminal)
 
-**PUSH(upload) from working brank**
-```
- git push -u origin master (or main) **|upload changes from working branch**
-```
+3. `git add .` , or git add (fileName) 
+
+4. `git commit -m "adding files"`
+
+5. `git remote add origin https://github.com/yourusername/your-repo-name.git`push the changes to your Git repository hosted with
+
+   GitHub.
+
+*Note: your-repo-name should be created in GitHub before you do a git remote add origin ...
+
+6. `git push -u origin master`
 
 
