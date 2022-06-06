@@ -163,4 +163,10 @@ git (fileName.txt)
 
 6. `git push -u origin master`
 
+----------------------------------
+# #.. if failed to pull some reals
 
+1.
+```
+git pull --rebase 
+```
