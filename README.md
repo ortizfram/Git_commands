@@ -155,7 +155,7 @@ git (fileName.txt)
 
 4. `git commit -m "adding files"`
 
-5. `git branch`
+5. `git branch -M main`
 
 5. `git remote add origin https://github.com/yourusername/your-repo-name.git`push the changes to your Git repository hosted with
 
