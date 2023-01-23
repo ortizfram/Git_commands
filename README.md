@@ -163,7 +163,7 @@ git (fileName.txt)
 
 *Note: your-repo-name should be created in GitHub before you do a git remote add origin ...
 
-6. `git push -u origin main`
+6. `git push -f origin main`
 
 ----------------------------------
 # #.. if failed to pull some reals
